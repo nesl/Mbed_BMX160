@@ -6,4 +6,4 @@ Copyright (C) 2020 Swapnil Sayan Saha and Junha Park, Networked and Embedded Sys
 
 Requirements: Mbed-OS 6.0 or higher. Tested on STM32L476RG (Nucleo).
 
-![BMX-160](https://www.github.com/swapnilsayansaha/Mbed_BMX160/Images/BMX160.jpg)
+![BMX-160](https://www.github.com/swapnilsayansaha/Mbed_BMX160/Images/BMX_160.jpg)
