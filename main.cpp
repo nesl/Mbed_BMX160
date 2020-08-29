@@ -7,7 +7,7 @@ Serial pc(USBTX, USBRX);
 int main()
 {
     pc.baud(9600);
-    // Initialise the digital pin LED1 as an output
+    // Initialise I2C bus (PC_1 and PC_0 pins being used in this demo for Nucleo L476RG)
     I2C i2cBus(PC_1, PC_0);
     i2cBus.frequency(400000);
     BMI160_I2C imu(i2cBus, BMI160_I2C::I2C_ADRS_SDO_LO);
